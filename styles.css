@@ -1,8 +1,7 @@
 * {
-    
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box;
 }
+
 
 
 body {
@@ -10,24 +9,32 @@ body {
    
 }
 
-header {
+.main-header {
+display: flex;
+justify-content: space-between;
 
-    background-color: #7B8FA1;
+   background-color: #7B8FA1;
+
 }
+
+
 
 h1 {
-    
+   
     background-color: aquamarine;
-    color: black;
+    color: rgb(177, 13, 13);
 }
 
-li {
-
-   display: inline;
+.navigation{
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     list-style-type: none;
-    
+    padding: 2px;
     
 
+}
+
+li {
+    list-style: none;
 }
