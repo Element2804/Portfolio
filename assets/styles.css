@@ -57,7 +57,7 @@ height: 400px;
 }
 
 .profile {
-    
+
     height: 90%;
 }
 
@@ -81,17 +81,27 @@ height: 400px;
    padding-right: 1%;
 }
 
-.work {
-
+.portfolio{
+  display: grid;
 
 }
 
+.work {
 
+    border-right: 2px solid black;
+    padding-right: 5%;
+}
 
 .link1 {
+    display: flex;
     border: 1px solid black;
+height:auto;
+width: 10%x;
+ 
+}
 
- width: auto;
+.horus {
+    
 }
 
 h2 {
