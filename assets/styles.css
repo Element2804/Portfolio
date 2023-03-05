@@ -2,7 +2,7 @@
 
 
 body {
-   background-color: blueviolet;
+   background-color: #ECF2FF;
    
 }
 
@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 35px;
-    background-color: #0a82eb;
+    background-color: #537FE7;
 
 }
 
@@ -20,9 +20,10 @@ body {
 
 .name{
  font-size: 60px;
-    background-color: aquamarine;
-    color: gray;
-    border-radius: px;
+    background-color:#80ced6;
+    color: #060047;
+    border-radius: 9px;
+    font-weight: 700;
 }
 
 .navigation{
@@ -42,7 +43,58 @@ display:flex;
 }
 
 .box {
- 
+ display: flex;
+ flex-direction: column; 
+ margin-left: 30px;
 
-margin-left: 100px;
+}
+
+.overlap {
+    background-image: url("microchip.jpg");
+height: 400px;
+
+
+}
+
+.profile {
+    
+    height: 90%;
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.about p {
+    width: 60%;
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: 500;
+
+}
+
+.about h2 {
+    border-right: 5px solid;
+   padding-right: 1%;
+}
+
+.work {
+
+
+}
+
+
+
+.link1 {
+    border: 1px solid black;
+
+ width: auto;
+}
+
+h2 {
+    font-size: 50px;
+    
 }
