@@ -1,0 +1,48 @@
+
+
+
+body {
+   background-color: blueviolet;
+   
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 35px;
+    background-color: #0a82eb;
+
+}
+
+
+
+.name{
+ font-size: 60px;
+    background-color: aquamarine;
+    color: gray;
+    border-radius: px;
+}
+
+.navigation{
+display:flex;
+  
+
+}
+
+.navigation li{
+    padding: 5px;
+    font-size: 30px;
+
+}
+
+.navigation a {
+    padding: 10px;
+}
+
+.box {
+ 
+
+margin-left: 100px;
+}
