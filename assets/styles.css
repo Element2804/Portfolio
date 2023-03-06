@@ -1,6 +1,4 @@
 
-
-
 body {
    background-color: #ECF2FF;
    
@@ -57,7 +55,6 @@ height: 400px;
 }
 
 .profile {
-
     height: 90%;
 }
 
@@ -82,29 +79,103 @@ height: 400px;
 }
 
 .portfolio{
-  display: grid;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
 
+
+
+}
+
+a {
+    background-color:  #80ced6;
+text-decoration:none;
+padding: 15px 25px;
+font-family: sans-serif;
+font-size: 25px;
+color: #fff;
+border-radius:10px;
+display: inline-block;
+transition: .8s ease
+}
+
+a:hover {
+    
+    box-shadow: 0px 0px 100px 0px #B3005E;
+    transition: .8s ease;
 }
 
 .work {
-
-    border-right: 2px solid black;
-    padding-right: 5%;
+    border-right: 5px solid;
+    padding-right: 1%;
+width: 13.5%;
+max-height: fit-content;
 }
 
+.contain {
+display: flex;
+
+width: 60%;
+
+}
+.contain2 {
+   
+        display: flex;
+   
+    width: 60%;
+    margin-left: 40%;
+    
+    }
+
+
 .link1 {
-    display: flex;
-    border: 1px solid black;
-height:auto;
-width: 10%x;
+  
+
+   width: 100%;
+    border: 2px solid black;
  
 }
 
-.horus {
+.link2 {
+
+    width: 50%;
+    border: 2px solid black;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 35px;
+
+}
+
+.contact ul {
+
+    display: flex;
+    padding: 10px;
+    font-size: 30px
+
+
     
+}
+.horis {
+    width:100%;
+}
+
+.contact h2 {
+    border-right: 5px solid;
+    padding-right: 1%;
+}
+
+.contact a {
+    display: flex;
+    padding: 10px;
 }
 
 h2 {
     font-size: 50px;
     
 }
+
